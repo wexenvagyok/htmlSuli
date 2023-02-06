@@ -1,53 +1,157 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sakk by BALAZS</title>
+    <title>Sakk</title>
     <style>
         body
         {
-            background-color: grey;
+            background-color: blanchedalmond;
             background-image: url(https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/PedroPinhata/phpVmOHiw.png);
+            
         }
 
         .fekete
         {
-            background-color: black;
+            background-color: black;   
         }
-        
+
         td
         {
-            height: 50px;
-            width: 50px;
+            width: 75px;
+            height: 75px;
             background-color: white;
-            border:1px solid black;
+            border: 1px solid black;
             text-align: center;
+            text-transform: uppercase;
+            background-repeat: no-repeat;
+
+        }
+        .feherBastya, .feherFuto, .feherLo, .feherVezer, .feherKiraly, .feherGyalog,
+        .feketeBastya, .feketeFuto, .feketeLo, .feketeVezer, .feketekiKiraly, .feketeGyalog 
+        {
+            background-image: url(./figura.png);
+            background-size: 300% 300%;
         }
 
         table
         {
-            border: 3px solid black;
+            border: 1px solid black;
             border-collapse: collapse;
             margin: auto;
         }
-        .feherbastya{
-            background-image: url(./figura.png,);
-            background-size: 225px 20px;
-        }
+        .feherBastya {   background-position: 30% 103%;}
+
+        .feherFuto {background-position: 70% 103%;}
+
+        .feherLo {background-position: -10% 103%;}
+
+        .feherVezer {background-position: 110% 53%;}
+
+        .feherKiraly {background-position: 70% 53%;}
+
+        .feherGyalog {background-position: 110% 103%;}
+
+        .feketeKiraly {background-position: 70% 53%;}
+
 
     </style>
 </head>
 <body>
-    <!--<img src="./figura.png">-->
-    <table>
+    <img src="chess.png">
+    <script>
+        var sorszam=0;
+        var elso;
+        function kattint(elem)
+        {
+            //console.log(elem)
+            if(sorszam==0)
+            {
+                if(elem.dataset["babu"]!="")
+                {
+                    elso=elem;
+                    sorszam++;
+                }
+                
+            }
+            else{
+                //lerakás
+                elem.classList.add(elso.dataset["babu"]);
+                elso.dataset["babu"]=elso.dataset["babu"];
+                
+                //régi törlése
+                elso.classList.remove(elso.dataset["babu"]);
+                elso.dataset["babu"]="";
+                
+                
+                sorszam=0;
+            }
+    
+            console.log(sorszam);
+        }
+        function init()
+        {
+            let cellak=document.querySelectorAll("td");
+
+            for(let i=0;i<cellak, length;i++)
+            {
+                cellak[i].addEventListener()
+            }
+        }
+    </script>
+    <table> 
         <tr>
-        <td></td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H</td>
+            <td></td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H</td>
         </tr>
         <tr>
             <td>1</td>
-            <td class="fekete feherbastya"></td>
+            <td class="fekete feherBastya"></td>
+            <td class="feherLo"></td>
+            <td class="fekete feherFuto"></td>
+            <td class="feherVezer"></td>
+            <td class="fekete feherKiraly"></td>
+            <td class="feherFuto"></td>
+            <td class="fekete feherLo"></td>
+            <td class="feherBastya"></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td class="feherGyalog"></td>
+            <td class="fekete feherGyalog"></td>
+            <td class="feherGyalog"></td>
+            <td class="fekete feherGyalog"></td>
+            <td class="feherGyalog"></td>
+            <td class="fekete feherGyalog"></td>
+            <td class="feherGyalog"></td>
+            <td class="fekete feherGyalog"></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td class="fekete"></td>
+            <td></td>
+            <td class="fekete"></td>
+            <td></td>
+            <td class="fekete"></td>
+            <td></td>
+            <td class="fekete"></td>
+            <td></td>
+        </tr>
+         <tr>
+            <td>4</td>
+            <td></td>
+            <td class="fekete"></td>
+            <td></td>
+            <td class="fekete"></td>
+            <td></td>
+            <td class="fekete"></td>
+            <td></td>
+            <td class="fekete"></td>
+         </tr>
+         <tr>
+            <td>5</td>
+            <td class="fekete"></td>
             <td></td>
             <td class="fekete"></td>
             <td></td>
@@ -57,7 +161,7 @@
             <td></td>
         </tr>
         <tr>
-            <td>2</td>
+            <td>6</td>
             <td></td>
             <td class="fekete"></td>
             <td></td>
@@ -67,69 +171,29 @@
             <td></td>
             <td class="fekete"></td>
         </tr>
-        <td>3</td>
-        <td class="fekete"></td>
-        <td></td>
-        <td class="fekete"></td>
-        <td></td>
-        <td class="fekete"></td>
-        <td></td>
-        <td class="fekete"></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>4</td>
-        <td></td>
-        <td class="fekete"></td>
-        <td></td>
-        <td class="fekete"></td>
-        <td></td>
-        <td class="fekete"></td>
-        <td></td>
-        <td class="fekete"></td>
-    </tr>
-    <td>5</td>
-    <td class="fekete"></td>
-    <td></td>
-    <td class="fekete"></td>
-    <td></td>
-    <td class="fekete"></td>
-    <td></td>
-    <td class="fekete"></td>
-    <td></td>
-</tr>
-<tr>
-    <td>6</td>
-    <td></td>
-    <td class="fekete"></td>
-    <td></td>
-    <td class="fekete"></td>
-    <td></td>
-    <td class="fekete"></td>
-    <td></td>
-    <td class="fekete"></td>
-</tr>
-<td>7</td>
-<td class="fekete"></td>
-<td></td>
-<td class="fekete"></td>
-<td></td>
-<td class="fekete"></td>
-<td></td>
-<td class="fekete"></td>
-<td></td>
-</tr>
-<tr>
-<td>8</td>
-<td></td>
-<td class="fekete"></td>
-<td></td>
-<td class="fekete"></td>
-<td></td>
-<td class="fekete"></td>
-<td></td>
-<td class="fekete"></td>
-</tr>
+        <tr>
+            <td>7</td>
+            <td class="fekete"></td>
+            <td></td>
+            <td class="fekete"></td>
+            <td></td>
+            <td class="fekete"></td>
+            <td></td>
+            <td class="fekete"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td></td>
+            <td class="fekete"></td>
+            <td></td>
+            <td class="fekete"></td>
+            <td class="feketeKiraly"></td>
+            <td class="fekete"></td>
+            <td></td>
+            <td class="fekete"></td>
+        </tr>
     </table>
+
 </body>
 </html>
