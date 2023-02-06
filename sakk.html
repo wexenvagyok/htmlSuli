@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sakk</title>
     <style>
+<<<<<<< HEAD
         body
         {
             background-color: blanchedalmond;
@@ -39,9 +40,25 @@
         table
         {
             border: 1px solid black;
-            border-collapse: collapse;
-            margin: auto;
+=======
+        body {
+            background-image:
         }
+        .fekete {
+            background-color: black;
+        }
+        td {
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+>>>>>>> 6538c94d315d374bee516b6a2bca556f9e566020
+            border-collapse: collapse;
+            background-color: white;
+			text-align: center;
+			text-transform: uppercase;
+			background-repeat: no-repeat;
+        }
+<<<<<<< HEAD
         .feherBastya {   background-position: 30% 103%;}
 
         .feherFuto {background-position: 70% 103%;}
@@ -56,10 +73,34 @@
 
         .feketeKiraly {background-position: 70% 53%;}
 
+=======
+        table {
+            border: 2px solid black;
+            border-collapse: collapse;
+			margin: auto;
+        }
+		.feherBastya, .feherFuto, .feherKiraly, .feherKiralyno, .feherLo, .feherGyalog, .feketeBastya, .feketeLo, .feketeFuto, .feketeKiralyno, .feketeKiraly, .feketeGyalog {
+			background-image: url(sakk2/sakkbabuk.png);
+            background-size: 300% 300%;
+		}
+        .feherBastya 	{	background-position: 30% 103%;	}
+        .feherFuto 		{	background-position: 70% 103%;	}
+        .feherLo 		{	background-position: -10% 103%;	}
+        .feherKiraly 	{	background-position: 70% 53%;	}
+        .feherKiralyno 	{	background-position: 110% 53%;	}
+		.feherGyalog 	{	background-position: 111% 103%;	}
+>>>>>>> 6538c94d315d374bee516b6a2bca556f9e566020
 
+		.feketeBastya 	{	background-position: 70% -5%;	}
+		.feketeLo 		{	background-position: 110% -5%;	}
+		.feketeFuto 	{	background-position: 30% -5%;	}
+		.feketeKiraly 	{	background-position: 30% 50%;	}
+		.feketeKiralyno	{	background-position: -10% 52%;	}
+		.feketeGyalog 	{	background-position: -10% 0%;	}
     </style>
 </head>
 <body>
+<<<<<<< HEAD
     <img src="chess.png">
     <script>
         var sorszam=0;
@@ -115,6 +156,45 @@
             <td class="feherFuto"></td>
             <td class="fekete feherLo"></td>
             <td class="feherBastya"></td>
+=======
+    <!--img src="./sakk2/sakkbabuk.png" alt="Sakk figure"-->
+    <script>
+        var sorszam=0;
+				var elso;
+        function kattint(elem)
+				{
+            //console.log (elem)
+            if (sorszam==0)
+            {
+								if(elem.dataset["babu"]!="")
+								{
+									elso=elem;
+									sorszam++;
+								}
+            }
+						else{
+								elem.classList.add(elso.dataset["babu"]);
+								elem.dataset["babu"]=elso.dataset["babu"]
+								sorszam=0;
+						} 
+						console.log(sorszam);
+        }
+    </script>
+    <table>
+        <tr>
+            <td></td> <td>A</td> <td>B</td> <td>C</td> <td>D</td> <td>E</td> <td>F</td> <td>G</td> <td>H</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td class="fekete feherBastya" data-babu="feherBastya" onclick="kattint(this)"></td>
+            <td class="feherLo" data-babu="feherLo" onclick="kattint(this)"></td>
+            <td class="fekete feherFuto" data-babu="feherFuto" onclick="kattint(this)"></td>
+            <td class="feherKiralyno" data-babu="feherKiralyno" onclick="kattint(this)"></td>
+            <td class="fekete feherKiraly" data-babu="feherKiraly" onclick="kattint(this)"></td>
+            <td class="feherFuto" data-babu="feherFuto" onclick="kattint(this)"></td>
+            <td class="fekete feherLo" data-babu="feherLo" onclick="kattint(this)"></td>
+            <td class="feherBastya" data-babu="feherBastya" onclick="kattint(this)"></td>
+>>>>>>> 6538c94d315d374bee516b6a2bca556f9e566020
         </tr>
         <tr>
             <td>2</td>
@@ -130,6 +210,7 @@
         <tr>
             <td>3</td>
             <td class="fekete"></td>
+<<<<<<< HEAD
             <td></td>
             <td class="fekete"></td>
             <td></td>
@@ -150,6 +231,56 @@
             <td class="fekete"></td>
          </tr>
          <tr>
+            <td>5</td>
+            <td class="fekete"></td>
+=======
+>>>>>>> 6538c94d315d374bee516b6a2bca556f9e566020
+            <td></td>
+            <td class="fekete"></td>
+            <td></td>
+            <td class="fekete"></td>
+            <td></td>
+            <td class="fekete"></td>
+            <td></td>
+        </tr>
+        <tr>
+<<<<<<< HEAD
+            <td>6</td>
+=======
+            <td>4</td>
+>>>>>>> 6538c94d315d374bee516b6a2bca556f9e566020
+            <td></td>
+            <td class="fekete"></td>
+            <td></td>
+            <td class="fekete"></td>
+            <td></td>
+            <td class="fekete"></td>
+            <td></td>
+            <td class="fekete"></td>
+        </tr>
+        <tr>
+<<<<<<< HEAD
+            <td>7</td>
+            <td class="fekete"></td>
+            <td></td>
+            <td class="fekete"></td>
+            <td></td>
+            <td class="fekete"></td>
+            <td></td>
+            <td class="fekete"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td></td>
+            <td class="fekete"></td>
+            <td></td>
+            <td class="fekete"></td>
+            <td class="feketeKiraly"></td>
+            <td class="fekete"></td>
+            <td></td>
+            <td class="fekete"></td>
+=======
             <td>5</td>
             <td class="fekete"></td>
             <td></td>
@@ -173,25 +304,26 @@
         </tr>
         <tr>
             <td>7</td>
-            <td class="fekete"></td>
-            <td></td>
-            <td class="fekete"></td>
-            <td></td>
-            <td class="fekete"></td>
-            <td></td>
-            <td class="fekete"></td>
-            <td></td>
+            <td class="fekete feketeGyalog"></td>
+            <td class="feketeGyalog"></td>
+            <td class="fekete feketeGyalog"></td>
+            <td class="feketeGyalog"></td>
+            <td class="fekete feketeGyalog"></td>
+            <td class="feketeGyalog"></td>
+            <td class="fekete feketeGyalog"></td>
+            <td class="feketeGyalog"></td>
         </tr>
         <tr>
             <td>8</td>
-            <td></td>
-            <td class="fekete"></td>
-            <td></td>
-            <td class="fekete"></td>
+            <td class="feketeBastya"></td>
+            <td class="fekete feketeLo"></td>
+            <td class="feketeFuto"></td>
+            <td class="fekete feketeKiralyno"></td>
             <td class="feketeKiraly"></td>
-            <td class="fekete"></td>
-            <td></td>
-            <td class="fekete"></td>
+            <td class="fekete feketeFuto"></td>
+            <td class="feketeLo"></td>
+            <td class="fekete feketeBastya"></td>
+>>>>>>> 6538c94d315d374bee516b6a2bca556f9e566020
         </tr>
     </table>
 
