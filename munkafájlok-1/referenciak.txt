@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="hu">
+<meta charset="utf-8">
+<title>Kovács és Fiai Kft.</title>
+<body>
+    <div id="fejlec">
+        <h1>Kovács &amp; Fiai Szobafestő és mázoló Kft.</h1>
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Főoldal</a></li>
+                <li><a href="referenciak.html">Referenciák</a></li>
+                <li><a href="arak.html">Árak</a></li>
+                <li><a href="ajanlat.html">Ajánlatkérés</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="tartalom">
+        <h2>Referenciák</h2>
+        <p class="kep"><img src="festes.jpg"></p>
+        <h3>Vállalati, intézményi  referenciák</h3>
+        <p>
+            XZY Rt.<br>
+            AAA Iroda<br>
+            BBB Kft.<br>
+            CCC SZKI<br>
+        </p>
+        <h3>Magán megrendelői referenciák</h3>
+        <p>
+            Nagy Andrásné, Budapest 1844 Fenyő u. 12.<br>
+            Szabó Zoltán, Budapest, 1845 Duna stny. 42.<br>
+            Pais Ábrahám, Budapest, 1846 Varsányi út 67.<br>
+            Joó Ferenc, Budapest, 1844 Soproni u. 14.<br>
+        </p>
+    </div>
+    <div id="lablec">
+        <p>&copy;Minden jog fenntartva.</p>
+    </div>
+</body>
+</html>
