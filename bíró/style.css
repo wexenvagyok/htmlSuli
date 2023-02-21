@@ -1,0 +1,37 @@
+body {
+    background-color: #6EB5B8;
+    color: #3A414C;
+}
+
+a {
+    color: #756F72;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+    
+}
+
+table {
+    width: 800px;
+    margin: auto;
+    background-color: #A7FFC3;
+    border-spacing: 5px;
+}
+
+.oldal {
+    width: 50px;;
+}
+
+h1 {
+    text-align: center;
+}
+
+.menuSor {
+    height: 125px;
+}
+
+.szegely {
+    border: 1px solid black;
+}

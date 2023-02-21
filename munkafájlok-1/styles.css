@@ -5,11 +5,14 @@ body{
 }
 
 .kep{
+    width: 130px;
     border: 0;
     float: right;
 }
-
-/* menü hivatkozások stíluselemei */
+.kep img{
+    width: 130px;
+}
+/* menï¿½ hivatkozï¿½sok stï¿½luselemei */
 
 #menu a,
 #menu a:link,
@@ -22,7 +25,7 @@ body{
     text-decoration: none;
 }
 
-/* táblázat stíluselemek */
+/* tï¿½blï¿½zat stï¿½luselemek */
 
 table{
     border-collapse: collapse;
@@ -38,7 +41,7 @@ td.kiemelt{
     font-weight: bold;
 }
 
-/* ûrlap stíluselemek */
+/* ï¿½rlap stï¿½luselemek */
 
 #ajanlat_form p{
     font-weight: bold;
@@ -51,7 +54,7 @@ td.kiemelt{
     width: 50px;
 }
 
-/* szerkezeti stíluselemek */
+/* szerkezeti stï¿½luselemek */
 
 #fejlec{
     font-family: 'Nosifer', cursive;

@@ -1,0 +1,19 @@
+﻿{biro.html szövege}
+A Golyóstoll – Bíró László újságíró, feltaláló
+1899. szeptember 29-én megszületett Bíró László József, a golyóstoll feltalálója.
+Bíró László József nyughatatlan ifjúkorában szinte az összes létező szakmában kipróbálta magát. A későbbi feltaláló az orvosi egyetemen kezdett, majd foglalkozott grafológiától kezdve a festészeten át az autóversenyzésig nagyjából mindennel. 1932-től több folyóiratnak és lapnak volt munkatársa, így került a nyomdák közelébe. Ott aztán addig-addig nézegette a nyomdagépeket, míg kitalálta, hogyan lehet összeállítani a folyamatosan író tollat egy tintával töltött hengerből és egy golyóból. 1938-ban két szabadalmat is bejegyeztetett Magyarországon a folyamatosan fejlesztett toll-találmányaira, a gyártáshoz folytatott kísérleteket azonban már külföldön végezte. Párizson keresztül Argentínába vezetett az útja, és használható, ma is ismert golyóstollára is itt kapott szabadalmat 1943-ban.
+A sok más találmánnyal is rendelkező Bíró Buenos Airesben hunyt el 1985-ben. Elismertségét bizonyítja többek között, hogy választott hazájában az ő születésnapja, szeptember 29. az Argentin Feltalálók Napja.
+{szerkezet.html szövege}
+Legismertebb találmányához, a golyóstollhoz is újságírói hivatása vezette el. Azonban mint minden találmánynak, így a golyóstollnak is voltak korábbi elődei.
+Az első író-toll a tintába mártott madártoll volt. Szükséges volt a folyamatos írás érdekében meghosszabbítani a két tintába mártás közötti írásra használt időt, valamint megszüntetni a tinta szétfröcskölődéséből adódó szennyeződést, és tökéletesíteni az íróeszköz kezelhetőséget.
+1884-ben L. E. Waterman, egy New York-i biztosítási üzletember készítette el az első töltőtoll terveit, mely az elkövetkező 60 év meghatározó íróeszközévé vált.
+1912-ben Németországban, Wilhelm Braun is tett kísérleteket arra, hogy továbbfejlessze a töltőtollat. Sajnos a tollak csak elvben működtek, a gyakorlatban nem.
+1924-ben G. L. Lorenz, Drezdában egy új tollat fejlesztett ki, melyet Mungo néven gyártottak, s mintadarabjait a Lipcsei vásáron árusították. Ezek a tollaknak azonban csak 1-2 napig voltak használhatóak.
+1938-ban Wenczel Climes cseh feltaláló szabadalmaztatott egy új típusú tollat, mely szintén csak a tervezőasztalon működött, gyakorlatilag azonban használhatatlan volt.
+Bíró László József áttanulmányozta a cseh Wenczel Climes szabadalmaztatott ötletét, majd továbbfejlesztette azt.
+{golyo.html szövege}
+Arra, hogy hogyan is ötlötte ki a golyóstoll elvét, többféle történet is napvilágot látott.
+Egy olasz folyóirat a következőket közölte hasábjain: egyszer Bíró egy budapesti teraszon üldögélt, és nézte az előtte golyózó gyermekeket. Az egyik golyó átszelt egy aszfalton összegyűlt kis víztócsát, és tovább gurulva nedves nyomot hagyott maga után az útburkolaton. Ebben a pillanatban született meg a golyóstoll ötlete.
+Egy újabb történet szerint találmányához az ötletet az adta, hogy egyszer az asztala lapján felborult a tintásüveg, s a kifolyt tintába guruló apró acélgolyócskák nyomot rajzoltak maguk után.
+Bárhogy is történt, az 1931. évi Budapesti Nemzetközi Vásáron bemutatta egy nagyméretű golyóval ellátott ládaszignáló tollát. Ezzel nagyon rossz minőségben, és nagy méretben lehetett csak írni. A későbbiekben ezt a megoldást tökéletesítette, s lekicsinyített változatát már írótollként alkalmazta. Ennek működési elve a következő volt:
+Egy vékony cső aljára elhelyezett egy sima felületű acélgolyót, melynek majdnem tökéletesen kellett illeszkednie a cső falához. A golyó fölé a csőbe tintát, később speciális festéket öntött. Ahogy a tollat végighúzták a papíron, a golyó elfordult, s tintát szívott magával a felső részről, melyet aztán a golyó a papírra préselt.
