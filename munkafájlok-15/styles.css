@@ -1,0 +1,94 @@
+body{
+    background: url('hatter.jpg') repeat-x #8ea77c;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 20px; 
+}
+#felso,
+#menu,
+#kozepso,
+#also{
+    width: 748px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#felso{
+    height: 113px;
+    background: url('fejlec_cimmel.png') no-repeat;
+}
+#menu{
+    height: 50px;
+    border-top: 4px solid #245400;
+    background-color: #3a7d09;
+}
+#kozepso{
+    min-height: 300px;
+    width: 746px;
+    background-color: white;
+    border-left: 1px solid #52723b;
+    border-right: 1px solid #52723b;
+
+}
+#belso{
+    padding: 20px;
+    text-align: justify;
+}
+
+#also{
+    height: 26px;
+    background: url('lablec.png') no-repeat;
+}
+
+#menu li{
+    display: inline;
+    list-style-type: none;
+    padding-right: 30px;
+    font-size: 1.2em;
+}
+#menu a,
+#menu a:link,
+#menu a:visited{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 1.65em;
+    text-align: center;
+}
+
+.kep{
+    float: right;
+}
+
+.termek{
+    width: 200px;
+    float: left;
+    margin: 15px;
+}
+
+.termek_kep{
+    text-align: left;
+}
+.termek_kep img{
+    border: 3px solid #060;
+}
+.termek_szoveg{
+    font-size: 0.8em;
+}
+
+.clear{
+    clear: both;
+}
+
+fieldset{
+    padding: 15px;
+    font-weight: bold;
+}
+fieldset div{
+    margin: 10px;
+}
+input[type='text']{
+    width: 300px;
+}
