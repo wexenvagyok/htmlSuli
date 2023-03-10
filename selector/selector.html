@@ -4,20 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Szelektor Gyakorlás</title>
     <style>
         div{
             border: 1px solid black;
         }
+        #keresett{
+            color: red;
+        }
+        div > span{
+            font-size: 25px;
+        }
+        .hatter{
+            background-color: aqua;
+        }
+        h1.hatter{
+            background-color: navy;
+            color: aqua;
+        }
+        body div div.hatter b span.hatter{
+            background-color: aquamarine;
+        }
+        span#keresett.hatter{
+            background-color: pink;
+        }
     </style>
 </head>
 <body>
-    <h1>cím</h1>
+    <h1 class="hatter">cím</h1>
     <div>
         <div>elso</div>
-        <div>masodik
-            <span> elem</span>
-            <span> más színű</span>
+        <div class="hatter">masodik
+            <span id="keresett" class="hatter"> elem</span>
+            <b><span class="hatter"> más színű</span></b>
+            <span class="hatter">ÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁ</span>
         </div>
     </div>
 </body>
