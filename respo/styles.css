@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(237, 255, 187);
+}
+
+.grid-container{
+    display: grid;
+}
+
+.grid-container div{
+    border: 1px solid red;
+    height: 20px;
+}
+
+.elem1{
+    grid-area: 1 / 1 / 1 / span 12;
+}
+
+.elem2{
+    grid-area: 2/1/span 8/span 2;
+}
+
+.elem3{
+    grid-area: 2/3/span 1/span 8;
+}
+
+.elem4{
+    grid-area: 2/11/span 8/span 2;
+}
+
+.elem5{
+    grid-area: 4/3/span 1/span 8;
+}
+
+.elem6{
+     grid-area: 5/7/span 4/span 4;
+}
+
+.elem7{
+    grid-area: 5/3/span 1/span 4;
+}
+
+.elem8{
+    grid-area: 6/4/span 1/span 3;
+}
+
+.elem9{
+    grid-area: 7/3/span 1/span 3;
+}
+
+.elem10{
+    grid-area: 7/6/span 2/span 1;
+}
+
+.elem11{
+    grid-area: 8/4/span 1/span 2;
+}
+
+.elem12{
+    grid-area: 9/3/span 1/span 8;
+}
